@@ -19,7 +19,7 @@ console.log(roundNumber);
 // STEP 3 (Number 3)
 
 let closeFriends = [];
-console.log(' The value of my array closeFriends ara: ' + (closeFriends = ['Cho', 'Janine', 'Irish', 'Vince']));
+console.log(' The value of my array closeFriends are: ' + (closeFriends = ['Cho', 'Janine', 'Irish', 'Vince']));
 console.log(closeFriends);
 
 let favoriteAnimals = ['Giraffe', 'Dolphin', 'Dogs'];
