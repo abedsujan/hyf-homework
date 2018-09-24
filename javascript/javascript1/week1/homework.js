@@ -47,3 +47,12 @@ else{
 console.log(housePrice);
 console.log('You are paying ' + payingStatus + ' for the house.');
 
+//EZ NAMEY
+
+let firstWords = ['Amazing ', 'Great ', 'Brilliant ' , 'Unique ', 'Magnificent ', 'Powerful ', 'Famous ', 'Elegant ', 'Fancy ','Majestic '];
+let secondWords = ['Company','Corporation', 'Resto Bar' ,'Restaurant', 'Relaxing Place', 'Food Expert', 'Studio','Condotel', 'Coffee shop', 'Donuts'];
+let randomNumber = Math.floor(Math.random() * 10) + 0;
+let startupName = firstWords[randomNumber] + secondWords [randomNumber];
+
+console.log('The startup name: ' + startupName + ' contains ' + startupName.length + ' characters.');
+
